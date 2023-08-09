@@ -3,8 +3,15 @@
     margin: 0;
     padding: 0;
 }
+/* universal font */
 
-/* ---- Header------ */
+.primary-font{
+    color: #727272;
+}
+.secondary-font{
+    color: #FF900E;
+}
+/* ---- Header start------ */
 
 header {
     background: rgba(255, 144, 14, 0.10);
@@ -70,3 +77,32 @@ nav {
 }
 
 /* --------header end------- */
+/* ----main start */
+main{
+    width: 1200px;
+    margin: 100px auto;
+}
+/* quick list */
+.quick-list{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.quick-list-img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+.quick-list-img img{
+    width: 342px;
+}
+.quick-list-content{
+    margin-left: 20px;
+}
+
+.list-title{
+    font-size: 45px;
+}
+.list-description{
+    margin: 25px 0px 22px;
+}
