@@ -3,14 +3,17 @@
     margin: 0;
     padding: 0;
 }
+
 /* universal font */
 
-.primary-font{
+.primary-font {
     color: #727272;
 }
-.secondary-font{
+
+.secondary-font {
     color: #FF900E;
 }
+
 /* ---- Header start------ */
 
 header {
@@ -78,32 +81,37 @@ nav {
 
 /* --------header end------- */
 /* ----main start */
-main{
+main {
     width: 1200px;
     margin: 100px auto;
 }
+
 /* quick list */
-.quick-list{
+.quick-list {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-.quick-list-img{
+
+.quick-list-img {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 15px;
 }
-.quick-list-img img{
+
+.quick-list-img img {
     width: 342px;
 }
-.quick-list-content{
+
+.quick-list-content {
     margin-left: 20px;
 }
 
-.list-title{
+.list-title {
     font-size: 45px;
 }
-.list-description{
+
+.list-description {
     margin: 25px 0px 22px;
 }
 
@@ -113,39 +121,68 @@ main{
 
 
 /* ------fact section */
-.fact-container{
+.fact-container {
     margin-top: 150px;
 }
-.fact-title{
+
+.fact-title {
     font-size: 45px;
 }
-.fact-description{
+
+.fact-description {
     color: #727272;
     font-size: 16px;
     margin-top: 24px;
     margin-bottom: 80px;
 }
 
-.fact-infos{
+.fact-infos {
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4, 1fr);
     justify-items: center;
 }
-.fact-info{
+
+.fact-info {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     border-radius: 8px;
-border: 1px solid #FF900E;
-padding: 30px;
+    border: 1px solid #FF900E;
+    padding: 30px;
 }
-.fact-info h2{
-font-size: 45px;
-margin: 10px 0px;
-display: flex;
+
+.fact-info h2 {
+    font-size: 45px;
+    margin: 10px 0px;
+    display: flex;
 }
-.fact-info p{
-font-size: 20px;
-color: #727272;
+
+.fact-info p {
+    font-size: 20px;
+    color: #727272;
+}
+
+/* ---sponsor section */
+.sponsor-container {
+    margin-top: 130px;
+}
+.sponsor-title{
+    font-size: 45px;
+    text-align: center;
+}
+.sponsor-descriotion{
+    font-size: 18px;
+    color: #727272;
+    text-align: center;
+}
+
+.sponsor-companys{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+.sponsor-companys img{
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
 }
