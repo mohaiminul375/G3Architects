@@ -106,3 +106,46 @@ main{
 .list-description{
     margin: 25px 0px 22px;
 }
+
+/* ----enjoy section---- */
+
+
+
+
+/* ------fact section */
+.fact-container{
+    margin-top: 150px;
+}
+.fact-title{
+    font-size: 45px;
+}
+.fact-description{
+    color: #727272;
+    font-size: 16px;
+    margin-top: 24px;
+    margin-bottom: 80px;
+}
+
+.fact-infos{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-items: center;
+}
+.fact-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+border: 1px solid #FF900E;
+padding: 30px;
+}
+.fact-info h2{
+font-size: 45px;
+margin: 10px 0px;
+display: flex;
+}
+.fact-info p{
+font-size: 20px;
+color: #727272;
+}
