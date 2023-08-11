@@ -117,9 +117,42 @@ main {
 
 /* ----enjoy section---- */
 
+.enjoy-container{
+    margin-top: 150px;
+}
+.enjoy-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.enjoy-title{
+    padding-left: 30px;
+    font-size: 45px;
+    border-left: 13px solid #FF900E;
+}
+.enjoy-description{
+    font-size: 16px;
+    margin-top: 20px;
+    color: #727272;
+}
+.enjoy-item-container{
+    margin-top: 30px;
+padding: 15px;
+}
+.enjoy-item{
+padding: 20px;
+box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
 
+}
 
+.enjoy-item h2{
+    font-size: 20px;
 
+}
+.enjoy-item p{
+    font-size: 16px;
+    margin-top: 12px;
+}
 /* ------fact section */
 .fact-container {
     margin-top: 150px;
