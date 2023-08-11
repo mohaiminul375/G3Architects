@@ -250,3 +250,65 @@ footer{
     padding: 20px;
     text-align: center;
 }
+/* responsive for mobile */
+/* @media only screen and (max-width:576px) */
+
+@media only screen and (max-width:576px) {
+    body{
+        width: 100%;
+    }
+    nav{
+        flex-direction: column;
+    }
+    .nav-items{
+        flex-direction: column;
+    }
+    .banner{
+        width: 100%;
+    }
+    .banner img{
+        width: 100%;
+    }
+    main{
+width: 100%;
+    }
+    .quick-list{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .quick-list-img{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .quick-list-content{
+        text-align: center;
+    }
+    .enjoy-content{
+        flex-direction: column;
+    }
+.enjoy-content img{
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+}
+.experience-btn{
+    position: relative;
+    left: 100px;
+    bottom: 80px;
+}
+.fact-container{
+    text-align: center;
+}
+.fact-infos{
+    grid-template-columns: repeat(1,1fr);
+    grid-row-gap: 10px;
+}
+.sponsor-companys{
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding:45px;
+
+}
+}
