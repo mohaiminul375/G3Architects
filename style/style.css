@@ -186,3 +186,15 @@ main {
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
 }
+/* ---footer */
+footer{
+    margin-top: 140px;
+    background: #FFF4E7;
+     margin-bottom: 100px;
+
+}
+.footer-title{
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}
